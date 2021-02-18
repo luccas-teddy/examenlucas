@@ -1,0 +1,58 @@
+.background    { background-color:rgb(8, 3, 3)
+}
+
+ .background     {background: rgb (55, 167, 250) rgb
+                  background-image: url(bosque.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover ;
+                   table-layout: fixed;
+                   border-spacing: 0;   }
+background td { padding: 0;          }
+.lava          { background-image: url(Llamas-fuego.jpg); background-repeat: no-repeat;
+                background-size: cover;}
+.wall          { background-image: url(cu.jpg); background-repeat: no-repeat;
+                background-size: cover;}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(star.jpg); background-repeat: no-repeat;
+                background-size: cover; }
+.player { background-image: url(64.jpg); background-repeat: no-repeat;
+                background-size: cover;}
+
+.game {
+  overflow: hidden;
+  max-width: 1650px;
+  max-height: 750px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url(65.jpg); background-repeat: no-repeat;
+                background-size: cover;}
+
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+
+.stats{
+     list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: bisque;
+  z-index: 10;
+  position: absolute;
+  text-align: left;
+  margin-top: 40px;
+}
+.statss{
+   list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: bisque;
+  z-index: 10;
+  position: absolute;
+  text-align: left;
+  margin-top: 80px;
+}

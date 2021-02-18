@@ -1,0 +1,9 @@
+.background    { background-color:rgb(8, 3, 3)
+}
+
+ .background     {background: rgb (55, 167, 250) rgb
+                  background-image: url(bosque.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover ;
+                   table-layout: fixed;
+                   border-spacing: 0;   }
